@@ -16,7 +16,7 @@ export const contactRoute: Routes = [
         path: 'contact',
         component: ContactComponent,
         data: {
-            authorities: ['ROLE_USER'],
+            authorities: [],
             pageTitle: 'Contacts'
         },
         canActivate: [UserRouteAccessService]
